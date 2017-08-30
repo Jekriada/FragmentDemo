@@ -1,4 +1,4 @@
-package m520it.com.fragment_exp;
+package com.xm.fragment_exp;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -12,7 +12,8 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import m520it.com.fragment_exp.utils.FragmentFactory;
+
+import com.xm.fragment_exp.fragment.utils.FragmentFactory;
 
 public class MainActivity extends FragmentActivity {
 

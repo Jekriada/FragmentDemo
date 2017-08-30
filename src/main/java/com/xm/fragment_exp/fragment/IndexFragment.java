@@ -1,4 +1,4 @@
-package m520it.com.fragment_exp.fragment;
+package com.xm.fragment_exp.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,14 +9,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.xm.fragment_exp.R;
+import com.xm.fragment_exp.fragment.utils.FragmentFactory;
+
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import m520it.com.fragment_exp.R;
-import m520it.com.fragment_exp.TestFragmentAdapter;
-import m520it.com.fragment_exp.utils.FragmentFactory;
+import com.xm.fragment_exp.TestFragmentAdapter;
 
 public class IndexFragment extends Fragment {
 

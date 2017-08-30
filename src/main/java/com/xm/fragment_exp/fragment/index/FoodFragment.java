@@ -1,4 +1,4 @@
-package m520it.com.fragment_exp.fragment.index;
+package com.xm.fragment_exp.fragment.index;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

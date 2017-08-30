@@ -1,4 +1,4 @@
-package m520it.com.fragment_exp.utils;
+package com.xm.fragment_exp.fragment.utils;
 
 import android.support.v4.app.Fragment;
 
@@ -6,14 +6,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import m520it.com.fragment_exp.fragment.IndexFragment;
-import m520it.com.fragment_exp.fragment.MyFragment;
-import m520it.com.fragment_exp.fragment.NearByFragment;
-import m520it.com.fragment_exp.fragment.StrollFragment;
-import m520it.com.fragment_exp.fragment.index.FoodFragment;
-import m520it.com.fragment_exp.fragment.index.HandpickFragment;
-import m520it.com.fragment_exp.fragment.index.MovieFragment;
-import m520it.com.fragment_exp.fragment.index.TripFragment;
+import com.xm.fragment_exp.fragment.IndexFragment;
+import com.xm.fragment_exp.fragment.MyFragment;
+import com.xm.fragment_exp.fragment.NearByFragment;
+import com.xm.fragment_exp.fragment.StrollFragment;
+import com.xm.fragment_exp.fragment.index.FoodFragment;
+import com.xm.fragment_exp.fragment.index.HandpickFragment;
+import com.xm.fragment_exp.fragment.index.MovieFragment;
+import com.xm.fragment_exp.fragment.index.TripFragment;
 
 public class FragmentFactory {
     public static final int FRAGMENT_INDEX = 0; //首页

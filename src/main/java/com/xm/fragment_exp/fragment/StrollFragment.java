@@ -1,4 +1,4 @@
-package m520it.com.fragment_exp.fragment.index;
+package com.xm.fragment_exp.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -12,14 +12,15 @@ import android.widget.TextView;
  * Created by xm on 2017/8/30.
  */
 
-public class MovieFragment extends Fragment {
+public class StrollFragment extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle
             savedInstanceState) {
         TextView tv = new TextView(getContext());
-        tv.setText("MovieFragment");
+        tv.setText("StrollFragment");
+
         return tv;
     }
 }
